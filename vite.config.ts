@@ -41,7 +41,7 @@ export default defineConfig({
         './src/composables',
       ],
       vueTemplate: true,
-      resolvers: [ElementPlusResolver()]
+      resolvers: [ElementPlusResolver()],
     }),
 
     // https://github.com/antfu/vite-plugin-components
